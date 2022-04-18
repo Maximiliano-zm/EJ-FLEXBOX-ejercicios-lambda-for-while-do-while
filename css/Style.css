@@ -1,0 +1,78 @@
+/* margenes predeterminados */
+* {
+    margin: 0.1px 0.1px;
+    padding: 0;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+/* ------------------------- */
+.marquee{
+
+    width: 500px;
+    height: 300px;
+
+}
+/* section de la pagina contenido de la pagina */
+.section{
+    background-image: url("https://webf-store.escapefromtarkov.com/uploads/monthly_2019_10/Killa-on-Interchange.gif.dbf33205e862cf25d234a5918ca2240d.gif");
+    height: 1080px;
+    border: 1px solid #fff;
+    margin: 1px 1px;
+}
+/* ------------------------------ */
+/* header de la pagina contenido de la pagina */
+header{
+    background: #000000 ;
+    display: flex;
+    border: 1px solid #fff;
+}
+
+/* ------------------------------ */
+/* footer de la pagina contenido de la pagina */
+footer{
+    background: #000000;
+    display: flex;
+    border: 1px solid #fff;
+}
+/* ------------------------------ */
+/* img  imagenes de la pagina*/
+img{
+    height: 100px;
+    width: 100px;
+  }
+/* ------------------------------ */
+/* contenedorflex contenedor base de los items*/
+.contenedorflex{
+display: flex;
+justify-content: center;
+border: 1px solid #fff;
+
+}
+/* ------------------------------ */
+/* item clase hijo de contenedor flex y a la vez es padre de arriba , medio , abajo */
+.contenedorflex .item{
+    display: flex;
+    flex-flow: column;
+    color: #fff;
+    margin: 100px;
+    padding: 100px;
+    border: 1px solid #fff;
+    }
+/* ------------------------------ */
+/* clases hijas de item */
+.arriba{
+
+border: 1px solid #fff;
+}
+.medio{
+
+border: 1px solid #fff;
+    
+}
+.abajo{
+border: 1px solid #fff;
+color: brown;
+
+}
+/* ------------------------------ */
